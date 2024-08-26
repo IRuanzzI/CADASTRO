@@ -47,6 +47,8 @@ form {
         font-size: 16px;
         padding-left: 10px;
         outline: none;
+
+        cursor: text;
     }
 
     /* Remove os seletores de número no Chrome, Safari, Edge e Opera */
@@ -72,6 +74,8 @@ form {
     border-radius: 10px;
     box-shadow: 10px 10px 10px;
 
+    cursor: pointer;
+    
     & p {
         color: #fff;
         font-weight: bold;
@@ -79,6 +83,7 @@ form {
         & span {
             font-weight: normal;
         }
+
     }
 
     & button {
